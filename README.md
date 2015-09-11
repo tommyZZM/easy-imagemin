@@ -11,12 +11,9 @@ easy-imagemin is a imagemin base cli tool, you can use it to minifly all images 
 # Install && Useage
 
 ````console
-
 $ npm install easy-imagemin -g
-
 ````
 
 ````console
 $ easy-imagemin -t:<目标目录(target path)> -o:<输出目录(out path)>
-
 ````
