@@ -2,4 +2,4 @@
 
 //↑ for auto create .cmd file
 
-require("./../index.js").run();
+require("./../index.js")();

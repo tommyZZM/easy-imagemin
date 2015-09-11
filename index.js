@@ -98,5 +98,4 @@ var run = function(){
 };
 
 //run();
-
-exports.run = run;
+module.exports = run;

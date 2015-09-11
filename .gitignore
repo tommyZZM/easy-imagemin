@@ -3,3 +3,5 @@ node_modules/
 test.out/
 
 .idea/
+
+npm-debug.log

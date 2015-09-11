@@ -1,6 +1,6 @@
 {
   "name": "easy-imagemin",
-  "version": "0.0.2alpha",
+  "version": "0.0.51-alpha",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,13 @@
   },
   "bin":{
     "easy-imagemin": "./bin/main.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tommyZZM/easy-imagemin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommyZZM/easy-imagemin"
   },
   "keywords": [
     "imagemin",
