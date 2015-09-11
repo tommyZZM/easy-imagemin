@@ -1,6 +1,6 @@
 {
   "name": "easy-imagemin",
-  "version": "0.0.1alpha",
+  "version": "0.0.2alpha",
   "description": "",
   "main": "index.js",
   "scripts": {
