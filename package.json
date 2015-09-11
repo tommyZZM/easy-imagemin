@@ -1,0 +1,26 @@
+{
+  "name": "easy-imagemin",
+  "version": "0.0.1alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "easy-imagemin": "./bin/main.js"
+  },
+  "keywords": [
+    "imagemin",
+    "cli-tool",
+    "gulp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "green": "^0.1.3",
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
