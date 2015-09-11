@@ -86,6 +86,10 @@ var run = function(){
         return;
     }
 
+    if(_outpath==="@current"){
+        full_out_path = full_path;
+    }
+
     if(fs.existsSync(full_out_path) && !args["f"]){
         terminal.warn("out path",_outpath,"already exists! use -f to force output here");
     }else{
@@ -93,7 +97,7 @@ var run = function(){
     }
 
     gulp.task("default",task(full_path));
-    terminal.log("minifying all images in",_targetpath,"quality:",min_quality);
+    terminal.log("minifying all images in",_targetpath,"quality:",min_quality,out_path?"output:"+out_path:"");
     gulp.start("default");
 };
 
