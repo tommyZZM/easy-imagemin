@@ -20,6 +20,7 @@ var min_quality = "0-20";
 var help = function(){
     terminal.trace("欢迎使用 easy-imagemin 命令行工具,用法 -t:<目录> -o:<输出目录>");
     terminal.trace("welcome use easy-imagemin cli tool,useage -t:<path> -o:<outpath>");
+    terminal.trace("source code : github.com/tommyZZM/easy-imagemin");
 };
 
 var task = function(taskPath){
